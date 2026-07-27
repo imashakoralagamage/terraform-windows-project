@@ -95,4 +95,4 @@ with open("terraform.auto.tfvars.json", "w") as f:
     json.dump(tfvars, f, indent=2)
 
 print("\nCreated terraform.auto.tfvars.json\n")
-print(json.dumps(tfvars, indent=2))A
+print(json.dumps(tfvars, indent=2))
